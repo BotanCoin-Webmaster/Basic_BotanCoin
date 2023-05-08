@@ -1,0 +1,70 @@
+.one_post{
+    background-color: black;
+    border-radius: 16px;
+    border-top-left-radius: 0px;
+    word-break: break-word;
+    word-wrap: break-word;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    border-top: 2px dashed rgb(41, 42, 48);
+}
+.v_name{
+    padding-top: 1px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 17px;
+}
+.v_date{
+    padding-top: 0px;
+    padding-bottom: 1px;
+    color: grey;
+    font-size: 15px;
+}
+.v_txt{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 17px;
+    text-align: left;
+}
+.wr_media{
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 8px;
+}
+.media{
+    width: 100%;
+    border-radius: 16px;
+}
+.right_post{
+    width: 26px;
+    text-align: right;
+}
+.media_line{
+    padding-left: 16px;
+    border-left: 1px solid rgb(41, 42, 48);
+}
+.f_img{
+    width: 26px;
+    text-align: left;
+}
+.info_post{
+    margin-top: 10px;
+}
+.liked{
+    color: white;
+    font-size: 16px;
+    padding-left: 4px;
+    padding-right: 6px;
+}
+.liked_img{
+    width: 20px;
+}
+.adress{
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 8px;
+    color: rgb(20, 40, 140);
+}

@@ -1,0 +1,92 @@
+.topi_acc{
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    background: linear-gradient(rgb(29, 26, 38, 0.96), rgb(10, 10, 10));
+}
+.account_txt{
+    font-size: 18px;
+    color: white;
+}
+.acc_info{
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.inter_acc{
+    color: grey;
+    font-size: 17px;
+    padding-left: 4px;
+    margin-top: 6px;
+}
+.under_inter{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    font-size: 18px;
+    padding-left: 4px;
+}
+.block{
+    display: inline-block;
+}
+.break{
+    word-break: break-all;
+    word-wrap: break-all;
+}
+.container {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 100%;
+  }
+
+  .container > div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px;
+  }
+.one_half_acc{
+    width: 50%;
+}
+.sec_half_acc{
+    width: 50%;
+}
+.redact_acc{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.next_sect_acc{
+    color: white;
+    font-size: 22px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    font-weight: 600;
+}
+.bottom_acc{
+    padding: 0px;
+}
+.bigi_inter_acc{
+    font-size: 22px;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.center_ups{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: 400;
+}

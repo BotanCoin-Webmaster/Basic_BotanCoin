@@ -1,0 +1,19 @@
+.topi_stack{
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    color: white;
+    font-size: 24px;
+}
+.logo_img{
+    width: 24px;
+}
+.tit_pad{
+    font-weight: 600;
+    padding-bottom: 4px;
+}
+.bottom_stack{
+    margin-top: 0px;
+    padding-bottom: 8px;
+}
