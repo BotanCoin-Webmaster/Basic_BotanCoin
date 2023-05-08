@@ -1,0 +1,73 @@
+.top_of_transact{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    color: grey;
+    font-size: 22px;
+}
+.t_f_half{
+    width: 60%;
+}
+.t_s_half{
+    background-color: black;
+}
+.in_t_f_half{
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.in_t_s_half{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.one_block_transact{
+    color: white;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 5px;
+}
+.one_input_transact{
+    border: 1px solid grey;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: black;
+    color: grey;
+    font-size: 15px;
+    font-weigth: 400;
+    border-radius: 10px;
+    width: 96%;
+    margin-bottom: 10px;
+}
+.bottom_transact{
+    text-align: right;
+}
+.transact_submit{
+    margin-top: 6px;
+    display: inline-block;
+    word-wrap: break-word;
+    word-break: break-word;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.about_btn{
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.your_balance{
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}

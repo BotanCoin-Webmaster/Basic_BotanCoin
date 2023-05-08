@@ -1,0 +1,66 @@
+
+.set_info{
+    background-color: rgb(10, 10, 10);
+}
+.set_f_half{
+    width: 25%;
+}
+.set_s_half{
+    width: 25%;
+}
+.set_t_half{
+    width: 25%;
+}
+.set_fourth_half{
+    width: 25%;
+}
+.in_set_f_half{
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+.in_set_s_half{
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+}
+.set_over_cont{
+    padding-top: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 80px;
+    word-break: break-word;
+    text-align: left;
+    color: grey;
+    font-size: 22px;
+    font-weight: 400;
+    background: linear-gradient(rgb(29, 26, 38, 0.96), rgb(10, 10, 10));
+}
+.tit_one_set{
+    color: grey;
+    font-size: 16px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.und_one_set{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.redact_one_set{
+    font-size: 16px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.one_setting{
+    margin-bottom: 10px;
+}

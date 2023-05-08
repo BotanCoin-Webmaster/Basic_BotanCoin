@@ -1,0 +1,125 @@
+.a_topi{
+    width: 92%;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: grey;
+    font-size: 25px;
+    font-weight: 400;
+    animation: vis 1s forwards;
+    background: linear-gradient(rgb(29, 26, 38, 0.96), rgb(10, 10, 10));
+}
+.seti{
+    padding-top: 32px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.title_set{
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.set{
+    padding-left: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.txt_block{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.one_acc_block{
+    border-radius: 20px;
+    width: 33%;
+}
+.a_bottom{
+    width: 92%;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: grey;
+    font-size: 25px;
+    font-weight: 400;
+    animation: vis 1s forwards;
+}
+.title_posts{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.b_sep{
+    height: 100%;
+    width: 100%;
+}
+.a_bottom_first{
+    width: 50%;
+}
+.one_post{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.author{
+    color: white;
+    font-size: 18px;
+}
+.date{
+    color: grey;
+    font-size: 15px;
+}
+.txt{
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+.post_info{
+    padding-top: 10px;
+    font-size: 16px;
+    color: grey;
+}
+.al_right{
+    text-align: right;
+    font-size: 14px;
+}
+.liked_td{
+    width: 10px; padding-top: 6px; padding-right: 3px;
+}
+.wr_img{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 26px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.all_info{
+    width: 80%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    padding-left: 10%;
+    padding-right: 4%;
+}
+.all_subi{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.title_sub{
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.one_post{
+    width: 94%;
+}

@@ -1,0 +1,28 @@
+.s_topi{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+}
+.stack_bottom{
+}
+.st_first{
+    width: 48%;
+}
+.st_second{
+    width: 52%;
+}
+.in_st_first{
+    padding-left: 2%;
+    padding-right: 1%;
+}
+.in_st_second{
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+
