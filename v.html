@@ -1,386 +1,742 @@
-
+ 
+ 
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!--Jquery-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="IMG/LOGOTIPS/saturn.png">
-<title>Spacy</title>
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="IMG/LOGOTIPS/saturn.png">
+    <title>Spacy</title>
+    <!--Let-->
+    <link rel='stylesheet' href='CSS/old/let.css'>
+    <link rel='stylesheet' href='CSS/old/inter.css'>
+    <link rel='stylesheet' href='CSS/old/modal.css'>
+    <link rel='stylesheet' href='CSS/old/logo.css'>
+    <link rel='stylesheet' href='CSS/old/for_pass.css'>
+    <!--Stack-->
+    <link rel='stylesheet' href='CSS/old/stack_inter.css'>
+    <!--Create-->
+    <link rel='stylesheet' href='CSS/old/create_inter.css'>
+    <!--Search-->
+    <link rel='stylesheet' href='CSS/old/search_inter.css'>
+    <!--Account-->
+    <link rel='stylesheet' href='CSS/old/account_inter.css'>
 
-<!--PC V-->
-<link rel='stylesheet' href='CSS/v/str.css'>
-<link rel='stylesheet' href='CSS/v/logo.css'>
-<link rel='stylesheet' href='CSS/v/control.css'>
-<link rel='stylesheet' href='CSS/v/info.css'>
-<link rel='stylesheet' href='CSS/v/img.css'>
-<link rel='stylesheet' href='CSS/v/account_inter.css'>
-<link rel='stylesheet' href='CSS/v/stack_inter.css'>
-<link rel='stylesheet' href='CSS/v/search_inter.css'>
-<link rel='stylesheet' href='CSS/v/schools_inter.css'>
-<link rel='stylesheet' href='CSS/v/settings_inter.css'>
-<link rel='stylesheet' href='CSS/v/transaction_inter.css'>
-<link rel='stylesheet' href='CSS/v/create_inter.css'>
+    <!--Basic-->
+    <link rel='stylesheet' href='CSS/basic.css'>
+    <link rel='stylesheet' href='CSS/basic_container.css'>
+    <link rel='stylesheet' href='CSS/basic_line.css'>
+    <link rel='stylesheet' href='CSS/basic_animation.css'>
+    <link rel='stylesheet' href='CSS/basic_modal.css'>
 
-<!--MOBILE V-->
-<link rel='stylesheet' href='CSS/mob_v/basic.css'>
-<link rel='stylesheet' href='CSS/mob_v/fonts.css'>
-<link rel='stylesheet' href='CSS/mob_v/basic_structure.css'>
-<link rel='stylesheet' href='CSS/mob_v/account_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/posts.css'>
-<link rel='stylesheet' href='CSS/mob_v/stack_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/search_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/schools_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/settings_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/transaction_inter.css'>
-<link rel='stylesheet' href='CSS/mob_v/create_inter.css'>
+    <!--Packet-->
+    <link rel='stylesheet' href='CSS/packet_modal.css'>
+
+    <!--Inter-->
+    <link rel='stylesheet' href='CSS/inter_main.css'>
+    <link rel='stylesheet' href='CSS/inter_block.css'>
+
+    <!--Color-->
+    <link rel='stylesheet' href='CSS/basic_color.css'>
 
 
+    <!--V-->
+    <link rel='stylesheet' href='CSS/v/str.css'>
+    <link rel='stylesheet' href='CSS/v/logo.css'>
+    <link rel='stylesheet' href='CSS/v/control.css'>
+    <link rel='stylesheet' href='CSS/v/info.css'>
+    <link rel='stylesheet' href='CSS/v/img.css'>
+
+    <link rel='stylesheet' href='CSS/v/account_inter.css'>
+    <link rel='stylesheet' href='CSS/v/stack_inter.css'>
+    <link rel='stylesheet' href='CSS/v/search_inter.css'>
+    <link rel='stylesheet' href='CSS/v/schools_inter.css'>
+    <link rel='stylesheet' href='CSS/v/settings_inter.css'>
+    <link rel='stylesheet' href='CSS/v/transaction_inter.css'>
+    <link rel='stylesheet' href='CSS/v/create_inter.css'>
+
+
+
+
+    
 </head>
 <body>
-<!--#7B7575 white-->
-        <table class='win_tab'>
-            <tr>
-                <td id='area-size' class='win_middle_td'>
-                    <div id='active' class='win_active_td'>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td class='win_bottom_td'>
-                    <table class='in_win_bottom_td'>
-                        <tr>
-                            <td action='no' id='acc-click' name='account' onclick='control(this)' class='one_section'>
-                                <img class='bottom_img' src='IMG/BOTTOM/account_grey.png'>
-                                <div class='mini_txt'>Профиль</div>
-                            </td>
-                            <td action='no' id='search-click' name='search' onclick='control(this)' class='one_section'>
-                                <img class='bottom_img' src='IMG/BOTTOM/search_grey.png'>
-                                <div class='mini_txt'>Найти</div>
-                            </td>
-                            <td action='no' id='stack-click' name='stack' onclick='control(this)' class='spec_section'>
-                                <img width='35px' src='IMG/BOTTOM/stack_grey.png'>
-                            </td>
-                            <td action='no' id='create-click' name='create' onclick='control(this)' class='one_section'>
-                                <img class='bottom_img' src='IMG/BOTTOM/create_grey.png'>
-                                <div class='mini_txt'>Создать</div>
-                            </td>
-                            <td action='no' id='btn-click' name='btn' onclick='control(this)' class='one_section'>
-                                <img width='26px' src='IMG/BOTTOM/btn_grey.png'>
-                                <div class='mini_txt'>Перевести</div>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
+    <div class='container wrapper'>
+        <div class='left_menu'>
+            <div class='logo'>
+                <table><tr><td style='padding-right: 5px;'><img src='IMG/LOGOTIPS/for_title.png' class='top_logo'></td><td>Spacy</td></tr></table>
+            </div>
+            <div class='control container'>
+                <div class='main_line'>
 
-<!--LOCAL-->
-
-<!--ACCOUNT-->
-<div id='account' class='hide'>
-<div class='in_acc'>
-    <div class='topi_acc account_txt'>
-        <div class='font_25'>Ваш профиль, <div class='vio'>mainbotan</div></div>
-        <div class='container'>
-            <div class='one_half_acc'>
-                <div class='acc_info'>
-                    <div class='inter_acc'>Описание</div>
-                    <div class='under_inter'>michael merry</div>
-                    <div class='inter_acc'>Дата регистрации</div>
-                    <div class='under_inter'>8 April, 10 AM</div>
-                    <div class='inter_acc'>Возраст</div>
-                    <div class='under_inter'>15 лет</div>
                 </div>
-            </div>
-            <div class='sec_half_acc'>
-                <div class='acc_info'>
-                    <div class='next_sect_acc'>Статистика</div>
-                    <div class='inter_acc'>Подписчики</div>
-                    <div class='under_inter'>189</div>
-                    <div class='inter_acc'>Подписки</div>
-                    <div class='under_inter'>45</div>
-                </div>
-            </div>
-        </div>
-        <div class='redact_acc'>Редактировать профиль</div>
-    </div>
-    <div class='bottom_acc account_txt'>
-        <div class='bigi_inter_acc'>
-            Все посты (48)
-        </div>
-        <div class='one_post'>
-            <div class='container'>
-                <div>
-                    <div class='v_name'>mainbotan</div>
-                    <div class='v_date'>56s ago</div>
-                </div>
-                <div class='right_post'>
-                    <img src='IMG/INSTRUMENT/txt.png' width='20px'>
-                </div>
-            </div>
-            <div class='wr_media'>
-                <div class='media_line'>
-                    <div class='v_txt'>
-                        Текст нового поста
-                    </div>
-                    <img class='media' src='media/win.png'>
-                </div>
-            </div>
-            <div class='adress'><div>@all_students</div></div>
-            <div class='info_post'>
                 <div class='container'>
-                    <div class='f_img'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></div>
-                    <div class='liked'>
-                        485 liked
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='account' onclick='control(this)' class='one_c'>
+                            Мой профиль
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class='one_post'>
-            <div class='container'>
-                <div>
-                    <div class='v_name'>mainbotan</div>
-                    <div class='v_date'>56s ago</div>
+            <div class='control container'>
+                <div class='main_line'>
+
                 </div>
-                <div class='right_post'>
-                    <img src='IMG/INSTRUMENT/txt.png' width='20px'>
-                </div>
-            </div>
-            <div class='wr_media'>
-                <div class='media_line'>
-                    <div class='v_txt'>
-                        Текст нового поста
-                    </div>
-                    <img class='media' src='media/new1.png'>
-                </div>
-            </div>
-            <div class='adress'><div>@all_students</div></div>
-            <div class='info_post'>
                 <div class='container'>
-                    <div class='f_img'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></div>
-                    <div class='liked'>
-                        485 liked
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='stack' onclick='control(this)' class='one_c'>
+                            School Stack
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-</div>
+            <div class='control container'>
+                <div class='main_line'>
 
-
-<!--SEARCH-->
-<div id='search' class='hide'>
-    <div class='topi_search'>
-        <div class='wr_input_search'>
-            <input placeholder='Просто найдите...' type='text' name='people' class='input_search' autocomplete="off">
-        </div>
-  </div>
-    <div class='bottom_search'>
-        <div class='bigi_search'>Новые (3834)</div>
-        <div style='margin-top: 6px;'>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-            <div class='one_people'>
-                <div class='se_name'>mainbotan</div>
-                <div class='se_descr'>Description</div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!--STACK-->
-<div id='stack' class='hide'>
-    <div class='topi_stack'>
-        <table><tr><td style='padding-right: 5px;'><img class='logo_img' src='IMG/LOGOTIPS/for_title.png'></td><td><div class='tit_pad'>School Stack</div></td></tr></table>
-    </div>
-    <div class='bottom_stack'>
-        <div class='one_post'>
-            <div class='container'>
-                <div>
-                    <div class='v_name'>mainbotan</div>
-                    <div class='v_date'>56s ago</div>
                 </div>
-                <div class='right_post'>
-                    <img src='IMG/INSTRUMENT/txt.png' width='20px'>
-                </div>
-            </div>
-            <div class='wr_media'>
-                <div class='media_line'>
-                    <div class='v_txt'>
-                        Текст нового поста
-                    </div>
-                    <img class='media' src='media/win.png'>
-                </div>
-            </div>
-            <div class='adress'><div>@all_students</div></div>
-            <div class='info_post'>
                 <div class='container'>
-                    <div class='f_img'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></div>
-                    <div class='liked'>
-                        485 liked
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='search' onclick='control(this)' class='one_c'>
+                            Поиск людей
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class='one_post'>
-            <div class='container'>
-                <div>
-                    <div class='v_name'>mainbotan</div>
-                    <div class='v_date'>56s ago</div>
+            <div class='control container'>
+                <div class='main_line'>
+
                 </div>
-                <div class='right_post'>
-                    <img src='IMG/INSTRUMENT/txt.png' width='20px'>
-                </div>
-            </div>
-            <div class='wr_media'>
-                <div class='media_line'>
-                    <div class='v_txt'>
-                        Текст нового поста
-                    </div>
-                    <img class='media' src='media/win.png'>
-                </div>
-            </div>
-            <div class='adress'><div>@all_students</div></div>
-            <div class='info_post'>
                 <div class='container'>
-                    <div class='f_img'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></div>
-                    <div class='liked'>
-                        485 liked
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='schools' onclick='control(this)' class='one_c'>
+                            Школы
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class='control container'>
+                <div class='main_line'>
+
+                </div>
+                <div class='container'>
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='settings' onclick='control(this)' class='one_c'>
+                            Настройки
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='control container'>
+                <div class='main_line'>
+
+                </div>
+                <div class='container'>
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='transact' onclick='control(this)' class='one_c'>
+                            Перевести BTN
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='control container'>
+                <div class='main_line'>
+
+                </div>
+                <div class='container'>
+                    <div style='width: 10px;'>
+                        <div class='wr_s_line'>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <div name='create' onclick='control(this)' class='one_c'>
+                            Создать
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class='wr_info'>
+                <div class='title_info'>
+                    My Assistant
+                </div>
+                <div class='info'>
+                    Используйте вкладки для быстрого перемещения между страницами <div onclick='hide_mess(this)' class='hidy' style='display: inline-block'><img src='IMG/INSTRUMENT/hidden.png' class='mini_img'></div>
+                </div>
+                <div class='info'>
+                    Ниже будут появляться уведомления системы <div onclick='hide_mess(this)' class='hidy' style='display: inline-block'><img src='IMG/INSTRUMENT/hidden.png' class='mini_img'></div>
+                </div>
+            </div>
+            <div class='wr_info' style='margin-top: 10px;'>
+                <div class='title_info'>
+                    Session
+                </div>
+                <div class='info' style='font-size: 14px;'>
+                    IP: 192.393.293.22
+                </div>
+                <div class='info' style='font-size: 14px;'>
+                    Версия движка: v
+                </div>
+                <div class='info' style='color: rgb(192, 49, 49); font-size: 14px;'>
+                    Выйти
+                </div>
+            </div>
+
+            <!--
+            <div class='wr_create'>
+                <div class='create'>
+                    Создать
+                </div>
+            </div>-->
+        </div>
+        <div class='right_win'>
+            <div id='active' class='in_right_win'>
+
             </div>
         </div>
     </div>
-</div>
 
 
-<!--CREATE-->
-<div id='create' class='hide'>
-    <table class='create_tab'>
-        <tr>
-            <td class='topli_create'>
-                <div class='in_topli_create'>
-                    <textarea class='area_txt' placeholder="Просто начните..."></textarea>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td id='bottom-size' class='bottom_create'>
-                <div class='in_bottom_create'>
-                    <div class='b_cr_1'>Что нового?</div>
-                    <div class='b_cr_2'>• Расскажите о Вашем дне</div>
-                    <div class='b_cr_2'>• Поделитесь интересными фактами</div>
+
     
-                    <div class='b_cr_1' style='margin-top: 5px; padding-bottom: 2px;'>Изображения</div>
-                    <div class='b_cr_3'><div class='vio'>Загрузите изображение</div></div>
-                    <div class='path'>desktop/media.png</div>
+    <!--Local-->
+    <!--ACCOUNT-->
+    <div id='account' class='hide'>
+        <div class='a_topi'>
+            Добро пожаловать на свою страницу, <div class='vio'>mainbotan</div>
+            <div class='container'>
+                <div class='one_acc_block'>
+                    <div class='seti'>
+                        <div class='title_set vio'>
+                            Обучение
+                        </div>
+                        <div class='set'>
+                            <div class='txt_block'>• Математическая вертикаль</div>
+                            <div class='txt_block'>• School 1286 Wild West</div>
+                        </div>
+                    </div>
                 </div>
-                <div class='wr_public'>
-                    <div class='public_div'>Опубликовать</div>
+                <div class='one_acc_block'>
+                    <div class='seti'>
+                        <div class='title_set vio'>
+                            Описание <div class='block' name='description' onclick='redact(this)'><img class='middle_img' src='IMG/INSTRUMENT/pen.png'></div>
+                        </div>
+                        <div class='set'>
+                            Description
+                        </div>
+                    </div>
                 </div>
-            </td>
-        </tr>
-    </table>
-</div>
+                <div class='one_acc_block'>
+                    <div class='seti' style='margin-left: 30px;'>
+                        <div class='title_set vio'>
+                            Последний выход
+                        </div>
+                        <div class='set'>
+                            Sunday, 10.04.15:11
+                        </div>
+                    </div>
 
-
-<!--BTN-->
-<div id='btn' class='hide'>
-    <div class='bottom_btn_section'>
-        <div class='one_s_btn'>Баланс <div class='vio'>123 BotanCoin</div>
+                    <div class='seti' style='margin-left: 30px;'>
+                        <div class='title_set vio'>
+                            Кол-во BotanCoin
+                        </div>
+                        <div class='set'>
+                            475
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class='und_one_s_btn'>
-            *BotanCoin позволяет оценивать Вашу активность в создании постов. 1BTN эквивалентен 1 новому
-            лайку к Вашему посту.
+        <div class='a_bottom'>
+            <div class='container b_sep'>
+                <div class='a_bottom_first'>
+                    <div class='title_posts'>
+                        Ваши посты за всё время (2)
+                    </div>
+                    <div class='one_post'>
+                        <div class='author'>mainbotan</div>
+                        <div class='date'>Friday, 7 April</div>
+                        <div class='txt'>
+                            Добрый день, это я - текст Вашего поста.<br>
+                            Вы можете рассказать с помощью меня всё что угодно...
+                        </div>
+                        <div class='post_info'>
+                            <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                        </div>
+                    </div>
+                    <div class='one_post'>
+                        <div class='author'>mainbotan</div>
+                        <div class='date'>Friday, 7 April</div>
+                        <div class='txt'>
+                            Добрый день, это я - текст Вашего поста.<br>
+                            Вы можете рассказать с помощью меня всё что угодно...
+                        </div>
+                        <div class='wr_img'>
+                            <img src='IMG/LOGOTIPS/qr-code.png' class='post_img'>
+                        </div>
+                        <div class='post_info'>
+                            <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class='all_info'>
+                        <div class='title_sub vio'>
+                            Ваши подписчики (1)
+                        </div>
+                        <div class='all_subi'>
+                            <div class='one_res rec'>
+                                <table style='table-layout: fixed;' width='100%' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td name='mainbotan' onclick='idy(this)' width='10px' style='padding: 7px; padding-left: 8px; padding-right: 16px;'>
+                                            <img class='avatar' src='IMG/INSTRUMENT/studer_white.png'> 
+                                        </td>
+                                        <td name='mainbotan' onclick='idy(this)' class='wrp_info_man'>
+                                            <div class='name'>mainbotan</div>
+                                            <div class='descr'>Ваш подписчик</div>
+                                        </td>
+                                        <td name='mainbotan' onclick='idy(this)' class='del_td' width='40px'>
+                                            <img width='20px' src='IMG/INSTRUMENT/like_blue.png'>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div style='margin-top: 16px;' class='title_sub vio'>
+                            Ваши подписки (1)
+                        </div>
+                        <div class='all_subi'>
+                            <div class='one_res rec'>
+                                <table style='table-layout: fixed;' width='100%' cellpadding='0' cellspacing='0'>
+                                    <tr>
+                                        <td name='mainbotan' onclick='idy(this)' width='10px' style='padding: 7px; padding-left: 8px; padding-right: 16px;'>
+                                            <img class='avatar' src='IMG/INSTRUMENT/studer_white.png'> 
+                                        </td>
+                                        <td name='mainbotan' onclick='idy(this)' class='wrp_info_man'>
+                                            <div class='name'>mainbotan</div>
+                                            <div class='descr'>Вы подписаны</div>
+                                        </td>
+                                        <td name='mainbotan' onclick='del(this)' class='del_td' width='40px'> 
+                                            <img width='20px' src='IMG/INSTRUMENT/delete.png'>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-            <div class='public_div'>Новый перевод</div>
-
-        <div style='margin-top: 10px;' class='one_s_btn'>История переводов</div>
-        <div class='who_tr'>Мне</div>
-        <div class='one_tr'>
-            mainbotan - Turgenev (+34BTN, 21.04)
-        </div>
-        <div class='one_tr'>
-            mainbotan - Turgenev (+34BTN, 21.04)
-        </div>
-        <div class='who_tr'>От меня</div>
-        <div class='ups_err'>Здесь ничего нет</div>
     </div>
-</div>
 
+
+    <!--STACK-->
+    <div id='stack' class='hide'>
+        <div class='s_topi'>
+            Новые посты в 
+            <div class='vio'>School Stack</div>
+        </div>
+        <div class='stack_bottom container'>
+            <div class='st_first'>
+                <div class='in_st_first'>
+                    <div class='one_post'>
+                    <div class='author'>mainbotan</div>
+                    <div class='date'>Friday, 7 April</div>
+                    <div class='txt'>
+                        Добрый день, это я - текст Вашего поста.<br>
+                        Вы можете рассказать с помощью меня всё что угодно...
+                    </div>
+                    <div class='post_info'>
+                        <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                    </div>
+                    </div>
+                    <div class='one_post'>
+                        <div class='author'>mainbotan</div>
+                        <div class='date'>Friday, 7 April</div>
+                        <div class='txt'>
+                            Добрый день, это я - текст Вашего поста.<br>
+                            Вы можете рассказать с помощью меня всё что угодно...
+                        </div>
+                        <div class='wr_img'>
+                            <img src='media/new1.png' class='post_img'>
+                        </div>
+                        <div class='post_info'>
+                            <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='st_second'>
+                    <div class='in_st_second'>
+                        <div class='one_post'>
+                        <div class='author'>mainbotan</div>
+                        <div class='date'>Friday, 7 April</div>
+                        <div class='txt'>
+                            Добрый день, это я - текст Вашего поста.<br>
+                            Вы можете рассказать с помощью меня всё что угодно...
+                        </div>
+                        <div class='post_info'>
+                            <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                        </div>
+                        </div>
+                        <div class='one_post'>
+                            <div class='author'>Dostoevski</div>
+                            <div class='date'>Friday, 7 April, 1850</div>
+                            <div class='txt'>
+                                Итак, Ихменевы переехали в Петербург.<br> Не стану описывать мою встречу с Наташей после такой долгой разлуки. Во все эти четыре года я не забывал ее никогда. Конечно, я сам не понимал вполне того чувства, с которым вспоминал о ней; но когда мы вновь свиделись, я скоро догадался, что она суждена мне судьбою.
+                            </div>
+                            <div class='post_info'>
+                                <table width='96%'><tr><td class='liked_td'><img src='IMG/INSTRUMENT/like_pos.png' class='liked_img'></td><td>liked</td><td class='al_right'>from_school</td></tr></table>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SEARCH-->
+    <div id='search' class='hide'>
+        <div class='container stack_bottom'>
+            <div class='search_first_half'>
+                <div class='in_sea_f_half'>
+                    <div class='title_search'>Найдите своих друзей</div>
+                    <div class='wr_search_inp'>
+                        <form method='GET' action=''>
+                            <input name='people' type='text' placeholder="Найти..." class='search_input'>
+                        </form>
+                    </div>
+                    <div class='search_result'>
+                        Мы нашли одного пользователя по запросу <div class='vio'>mainbotan</div>
+                        <script>
+                function people(obj){
+                    document.getElementById('active').innerHTML = document.getElementById(obj.getAttribute('name')).innerHTML;
+                }
+                        </script>
+                    </div>
+                    <div>
+                        <div name='mainbotan' onclick='people(this)' class='one_people'>
+                            <div class='se_name'>mainbotan</div>
+                            <div class='se_descr'>Description</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='search_second_half'>
+                <div class='in_sea_s_half'>
+                    <div class='title_people'>
+                        Новые пользователи (<div class='vio'>394</div>)
+                    </div>
+                    <div class='wrapper_all_people'>
+                        <div name='mainbotan' onclick='people(this)' class='one_people'>
+                            <div class='se_name'>mainbotan</div>
+                            <div class='se_descr'>Description</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--SCHOOL-->
+    <div id='schools' class='hide'>
+        <div class='sch_cont container'>
+            <div class='sch_first_half'>
+                <div class='sch_in_f_half'>
+                    <div class='title_of_school'>
+                        Все доступные школы
+                    </div>
+                    <div>
+                        <div class='one_school'>1286 Wild West School</div>
+                        <div class='one_school'>1286 North School</div>
+                        <div class='new_school vio'>
+                            Выбрать другую
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class='sch_second_half'>
+                <div class='sch_in_s_half'>
+                    <div class='title_about_school'>
+                        О Вашей школе (<div class='vio'>1286 Wild West</div>)
+                    </div>
+                    <div class='inter_title'>Описание</div>
+                    <div class='info_under_i_title'>
+                        Здесь бегают, прыгают, носятся, кудахтают; развлекаются, играют и немного учатся...
+                    </div>
+                    <div class='inter_title'>Участники (145)</div>
+                    <div style='overflow-y: scroll; max-height: 1000px;'>
+                        <div class='one_people'>
+                            <div class='se_name'>mainbotan</div>
+                            <div class='se_descr'>Description</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div
+    
+    
+    
+    
+    <div id='settings' class='hide'>
+
+    </div>
+
+
+    <!--SETTINGS-->
+    <div id='settings' class='hide'>
+        <div class='set_over_cont'>
+            Настройки и статистика Вашего аккаунта, <br><div class='vio'>mainbotan</div>
+        </div>
+        <div class='set_info container'>
+            <div class='set_f_half'>
+                <div class='in_set_f_half'>
+                    <div name='school' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Школа обучения
+                        </div>
+                        <div class='und_one_set'>1286 Wild West</div>
+                        <div onclick='settings(this)' class='redact_one_set vio'>Изменить</div>
+                    </div>
+                    <div name='descr' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Описание профиля
+                        </div>
+                        <div class='und_one_set'>Description</div>
+                        <div onclick='settings(this)' class='redact_one_set vio'>Изменить</div>
+                    </div>
+                    <div name='age' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Возраст
+                        </div>
+                        <div class='und_one_set'>16</div>
+                        <div onclick='settings(this)' class='redact_one_set vio'>Изменить</div>
+                    </div>
+                    <div name='tags' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Теги
+                        </div>
+                        <div class='und_one_set'>#Мат-вертикаль</div>
+                        <div onclick='settings(this)' class='redact_one_set vio'>Изменить</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='set_s_half'>
+                <div class='in_set_s_half'>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Кол-во подписчиков
+                        </div>
+                        <div class='und_one_set'>34</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Кол-во подписок
+                        </div>
+                        <div class='und_one_set'>10</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Посты в School Stack
+                        </div>
+                        <div class='und_one_set'>24</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Кол-во собранных лайков
+                        </div>
+                        <div class='und_one_set'>27</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Кол-во BotanCoin
+                        </div>
+                        <div class='und_one_set'>45</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='set_t_half'>
+                <div class='in_set_s_half'>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Дата регистрации
+                        </div>
+                        <div class='und_one_set'>12 April 2023</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Кол-во комментариев
+                        </div>
+                        <div class='und_one_set'>839</div>
+                    </div>
+                    <div class='one_setting'>
+                        <div class='tit_one_set'>
+                            Последняя авторизация
+                        </div>
+                        <div class='und_one_set'>8 April 2023</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class='set_fourth_half'>
+                <div class='in_set_s_half'>
+                    <div name='nick' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Уникальный nickname
+                        </div>
+                        <div class='und_one_set'>mainbotan</div>
+                    </div>
+                    <div name='nick' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Пароль
+                        </div>
+                        <div class='und_one_set'>******</div>
+                    </div>
+                    <div name='gmail' class='one_setting'>
+                        <div class='tit_one_set'>
+                            Ваша почта
+                        </div>
+                        <div class='und_one_set'>@dndndndndnnd</div>
+                        <div onclick='settings(this)' class='redact_one_set vio'>Изменить</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--TRANSACTION-->
+    <div id='transact' class='hide'>
+        <div class='container'>
+            <div class='t_f_half'>
+                <div class='in_t_f_half'>
+                    <div class='top_of_transact'>
+                        Давайте совершим Вашу <div class='vio'>25</div> транзакцию в <div><div class='vio'>BotanCoin</div></div>
+                    </div>
+                    <div>
+                        <form id='tr-form' method='POST' action='transact.html'>
+                            <div class='one_block_transact'>
+                                Кому переводим?
+                            </div>
+                            <input name='who' type='text' class='one_input_transact'>
+
+                            <div class='one_block_transact'>
+                                Сколько переводим?
+                            </div>
+                            <input min='1' name='sum' type='number' class='one_input_transact'>
+                        </form>
+                    </div>
+                    <div class='bottom_transact'>
+                        <div onclick='document.getElementById("tr-form").submit();' class='transact_submit'>Перевести</div>
+                    </div>
+                </div>
+            </div>
+            <div class='t_s_half'>
+                <div class='in_t_s_half'>
+                    <div class='your_balance'>Ваш баланс = <div class='vio'>231 BTN</div></div>
+                    <div class='about_btn'>
+                        *BotanCoin - монета, действующая в рамках сайта <div class='vio'>spacy.store</div>
+                        и обозначающая активность пользователя в деятельности на сайте.<br>
+                        У BTN нет эквивалента в рублях.<br><br>
+                        Разработка BotanCoin принадлежит <div class='vio'>@mainbotan</div>.<br>
+                        На данный момент в системе зарегистрированы <div class='vio'>2334</div> BotanCoin
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CREATE-->
+    <div id='create' class='hide'>
+        <div class='container bottom_create' id='bottom-cre'>
+            <div id='size-area' class='f_half_of_cre'>
+                <div class='in_f_half_of_cre'>
+                    <div class='topi_first_half'>
+                        Что нового, <div class='vio'>mainbotan</div>?
+                    </div>
+                    <div class='wr_area'>
+                        <textarea class='post_area' id='area' placeholder="Просто начните..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class='s_half_of_cre'>
+                <div class='in_s_half_of_cre'>
+                    <div class='tit_of_block'>Публикация постов</div>
+                    <div class='block_of_txt'>
+                        Вы можете опубликовать пост, содержащий полезную для читателя информацию, в том числе и изображения.<br>
+                        Система <div class='vio'>Spacy</div> сама определит содержит ли Ваше сообщение нецензурную брань.
+                    </div>
+                    <div class='wr_public'>
+                        <div class='public word-break'>Опубликовать</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <form id='set-form' action='settings.html' method='GET' class='hide'>
+        <input type='text' name='section' id='set-name'>
+    </form>
 </body>
-<script src="JS/mob-v/e-upt-control.js"></script>
-<script src="JS/mob-v/e-start.js"></script>
+
 <script>
-    var ww = window.outerWidth;
-    if (ww > 500){
-        $('.win_tab').css('width', '300px');
-        $('.win_tab').css('margin-left', ww*0.5 - 150);
+    function settings(obj){
+        document.getElementById('set-name').value = obj.closest('.one_setting').getAttribute('name');
+        document.getElementById('set-form').submit();
     }
-    var wh = window.outerHeight;
+    function hide_mess(obj){
+
+        $(obj.closest('.info')).css('animation', 'hide 0.4s forwards');
+        setTimeout(() => {
+            $(obj.closest('.info')).css('display', 'none');
+        }, 600);
+    }
 </script>
-<script>
-    $('.area_txt').css('height', doc('area-size').clientHeight);
-    $('.area_txt').css('width', doc('area-size').clientWidth - 28);
-</script>
-</html>
+<script src='JS/start.js'></script>
+<script src='JS/control.js'></script>
+<Script>
+    $(document.getElementById('area')).css('height', document.getElementById('size-area').offsetHeight);
+</Script>
+</html> 
+
+
