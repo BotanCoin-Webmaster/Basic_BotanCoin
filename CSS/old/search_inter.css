@@ -1,0 +1,119 @@
+.search{
+    width: 100%;
+    height: 100%;
+}
+.search_input{
+    padding: 2px;
+    height: 10px;
+    background-color: rgb(12, 12, 12);
+}
+.input_tab{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.fi_td{
+    width: 10px;
+    padding: 10px;
+    color: rgb(52, 189, 52);
+    font-weight: 600;
+    font-size: 22px;
+    padding-right: 13px;
+    padding-left: 19px;
+}
+.si_td{
+    vertical-align: middle;
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 19px;
+}
+.inp{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    color: rgb(231, 220, 220);
+    font-size: 18px;
+    background-color: rgb(25, 25, 26);
+}
+.search_res{
+    vertical-align: top;
+}
+.wr_res{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.one_res{
+    border-bottom: 1px solid rgb(7, 5, 10);
+    padding: 3px;
+    border-radius: 10px;
+    background-color: rgb(6, 6, 7);
+    border-radius: 18px;
+    margin-bottom: 4px;
+}
+.wrp_info_man{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.name{
+    display: inline-block;
+    word-wrap: break-word;
+    width: 100%;
+}
+.descr{
+    color: grey;
+    display: inline-block;
+    word-wrap: break-word;
+    width: 100%;
+    font-size: 16px;
+}
+.no{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.big{
+    font-size: 23px;
+    font-weight: 600;
+}
+.gre{
+    color: rgb(45, 189, 65);
+    display: inline-block;
+}
+.wr_rec{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tit_rec{
+    padding-top: 6px;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.rec{
+    background-color: rgb(6, 6, 7);
+    border-radius: 18px;
+    margin-bottom: 4px;
+}
+.to_rec{
+    background-color: rgb(12, 12, 12);
+    font-size: 18px;
+    color: rgb(54, 56, 175);
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+}

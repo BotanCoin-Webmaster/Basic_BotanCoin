@@ -1,0 +1,123 @@
+
+.reg_tit{
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 4px;
+}
+.let_reg{
+    border: none;
+    outline: none;
+}
+.pass_inp{
+    
+}
+.reg_inp_number{
+    background-color: transparent;
+    color: rgb(206, 185, 233);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid rgb(35, 26, 121);
+    padding: 2px;
+    max-width: 20%;
+    text-align: center;
+}
+.reg_inp_sex{
+    background-color: transparent;
+    color: rgb(206, 185, 233);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid rgb(35, 26, 121);
+    padding: 2px;
+    max-width: 40%;
+    text-align: center;
+}
+.reg_inp{
+    background-color: transparent;
+    color: rgb(206, 185, 233);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(83, 78, 78);
+    padding: 2px;
+}
+.reg_tit_comment{
+    color: rgb(104, 105, 122);
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.reg_comment{
+    color: rgb(49, 49, 184);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 4%;
+    margin-bottom: 16%;
+}
+.for_error{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    opacity: 0;
+}
+.div_for_tags{
+    border: 0px solid white;
+    padding: 4px;
+}
+.one_tag{
+    background-color: black;
+    border: 1px solid rgb(44, 43, 43);
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 14px;
+    color: rgb(51, 29, 151);
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: none;
+  }
+.inter{
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 5px;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 6px;
+    margin-bottom: 5px;
+}
+.inter_mail{
+    padding: 2px;
+    padding-left: 12px;
+    padding-right: 5px;
+    color: rgb(104, 105, 122);
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+.let_reg_s{
+    background-color: rgb(12, 12, 17);
+    border: 1px solid rgb(23, 22, 124);
+    margin-bottom: 8px;
+}
+
+.let_reg{
+    margin-bottom: 8px;
+}

@@ -1,0 +1,32 @@
+
+.let_top_div{
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-bottom: 1px solid rgb(33, 32, 34);
+}
+.pass_submit{
+    border: 1px solid rgb(21, 23, 151);
+    background-color: rgb(28, 27, 114);
+    border-radius: 14px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(124, 123, 129);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 6%;
+    outline: none;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.let_forgot{
+    padding: 10px;
+    color: rgb(49, 49, 190);
+    font-size: 20px;
+    text-align: center;
+}

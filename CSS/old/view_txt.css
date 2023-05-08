@@ -1,0 +1,143 @@
+
+.main_tab{
+    width: 100%;
+    height: 100%;
+}
+.spec{
+    padding: 6px;
+}
+.speci{
+    padding: 8px;
+    vertical-align: top;
+    height: 10px;
+}
+.grey_line{
+    height: 20px;
+    border-bottom: 1px solid white;
+}
+.func_info{
+    vertical-align: middle;
+}
+.list{
+    width: 26px;
+}
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.336);
+    position: absolute;
+    z-index: 9999999999;
+    top: 0;
+    display: none;
+}
+.m_tab{
+    width: 100%;
+    height: 100%;
+}
+.m_td{
+    vertical-align: middle;
+    text-align: center;
+}
+.qr{
+    padding: 4%;
+    padding-top: 10%;
+    padding-left: 9%;
+    padding-right: 9%;
+    border-radius: 25px;
+    background-color: black;
+    display: inline-block;
+    border: 1px solid rgb(82, 21, 122);
+}
+.about{
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 12px;
+}
+.comment_td{
+    width: 100%;
+    vertical-align: top;
+}
+.inp_wrapper{
+    text-align: center;
+}
+.new{
+    outline: none;
+    border: none;
+    background-color:rgb(17, 16, 16);
+    border-radius: 12px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 19px;
+}
+.other{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    padding: 10px;
+}
+.grey_com_line{
+    border-bottom: 1px solid rgb(36, 32, 32);
+    margin-bottom: 10px;
+}
+.author{
+    color:blueviolet;
+}
+.one_comm{
+    color: white;
+    margin-top: 10px;
+    padding-left: 8%;
+    padding-right: 1%;
+    font-size: 17px;
+}
+@keyframes close {
+    0% {height: 100px; opacity: 1;}
+    100% {height: 0px; opacity: 0;}
+}
+
+
+
+.wrapper_of_check{
+    display: inline-block;
+}
+  .checkmark {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: white;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px transparent;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px transparent;
+    }
+  }
+
+
+
+.wrap{
+    text-align: center;
+}

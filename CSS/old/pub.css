@@ -1,0 +1,151 @@
+
+.modal{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.bottom_create{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.pub_td{
+    height: 10px;
+    padding-bottom: 8px;
+}
+@keyframes exp {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.home{
+    color: white;
+    font-size: 18px;
+}
+
+.spinner {
+    -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+    width: 25px;
+    height: 25px;
+    position: relative;
+  }
+  
+  .spinner .path {
+    stroke: rgb(31, 204, 59);
+    stroke-linecap: round;
+    -webkit-animation: dash 1.5s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite;
+  }
+
+
+  .little_spinner {
+    -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 50%;
+  }
+  .little_spinner .path {
+    stroke: #1fcc3b;
+    stroke-linecap: round;
+    -webkit-animation: dash 1.5s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+  }
+  .about{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 16px;
+  }
+  .gre{
+        color:rgb(31, 204, 59);
+  }
+  .first{
+    margin-top: 5%;
+  }
+  .set{
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid rgb(19, 18, 18);
+        color: white;
+        font-size: 18px;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+  }
+
+
+  
+  .checkmark {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    stroke-width: 2;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    box-shadow: inset 0px 0px 0px blue;
+    animation: fill .4s ease-in-out .4s forwards, scale .3s ease-in-out .9s both;
+  }
+  
+  .checkmark__check {
+    transform-origin: 50% 50%;
+    stroke-dasharray: 48;
+    stroke-dashoffset: 48;
+    animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+  }
+  
+  @keyframes stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes fill {
+    100% {
+      box-shadow: inset 0px 0px 0px 30px blue;
+    }
+  }

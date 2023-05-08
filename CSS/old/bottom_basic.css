@@ -1,0 +1,27 @@
+/*GREY - #6F6969; WHITE - #C9BCBC*/
+/*MAIN*/
+.bottom{
+    height: 56px;
+    background-color: rgb(18, 18, 19);
+    border-top: 1px solid black;
+}
+.bottom_table{
+    width: 100%;
+    height: 100%;
+}
+.bottom_sec{
+    width: 20%;
+    vertical-align: middle;
+    text-align: center;
+    color: #6F6969;
+    font-size: 13px;
+}
+.img{
+    width: 25px;
+}
+.big_img{
+    width: 34px;
+}
+.little_img{
+    width: 24px;
+}

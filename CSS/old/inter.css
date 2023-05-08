@@ -1,0 +1,52 @@
+
+.let_title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.616);
+    display: inline-block;
+    margin-top: 16px;
+}
+.wrap_logo{
+    padding-top: 40%;
+    text-align: center;
+}
+.let_big_title{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.616);
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.input{
+    border: 1px solid rgb(32, 31, 29);
+    background-color: rgb(10, 10, 10);
+    border-radius: 14px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(124, 123, 129);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+    border: 1px solid rgb(53, 53, 190);
+    outline: none;
+    margin-bottom: 10px;
+}
+.let_submit{
+    border: 1px solid rgb(32, 31, 29);
+    background-color: rgb(10, 10, 10);
+    border-radius: 14px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(124, 123, 129);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 6%;
+    outline: none;
+    margin-bottom: 10px;
+    text-align: center;
+}

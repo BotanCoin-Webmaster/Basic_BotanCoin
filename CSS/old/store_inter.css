@@ -1,0 +1,17 @@
+.bot_st_td{
+    vertical-align: top;
+}
+.tit_r{
+    color: rgb(235, 223, 223);
+    font-size: 18px;
+}
+.des_r{
+    color: grey;
+    font-size: 18px;
+}
+.one_posi{
+    word-break: break-all;
+}
+.descr_r{
+    word-break: break-all;
+}

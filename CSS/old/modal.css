@@ -1,0 +1,106 @@
+
+.modal{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+}
+.autho{
+    opacity: 0;
+    height: 100%;
+    background-color: transparent;
+}
+.mid_td{
+    text-align: center;
+    vertical-align: middle;
+}
+@keyframes hidy {
+    0% {opacity: 1; z-index: 999;}
+    100% {opacity: 0; z-index: -999;}
+}
+@keyframes exp {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.spinner {
+    -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+    width: 25px;
+    height: 25px;
+    position: relative;
+  }
+  
+  .spinner .path {
+    stroke: rgb(31, 204, 59);
+    stroke-linecap: round;
+    -webkit-animation: dash 1.5s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite;
+  }
+
+
+  .little_spinner {
+    -webkit-animation: rotate 2s linear infinite;
+            animation: rotate 2s linear infinite;
+    width: 14px;
+    height: 14px;
+    position: relative;
+    top: 50%;
+  }
+  .little_spinner .path {
+    stroke: #1fcc3b;
+    stroke-linecap: round;
+    -webkit-animation: dash 1.5s ease-in-out infinite;
+            animation: dash 1.5s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 150;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -35;
+    }
+    100% {
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: -124;
+    }
+  }
+  
+
+  .spinner_hide{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      background-color: rgb(12, 13, 18, 0.8);
+      text-align: center;
+  }
+

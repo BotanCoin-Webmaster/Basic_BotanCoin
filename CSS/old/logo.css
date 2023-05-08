@@ -1,0 +1,34 @@
+
+.fir_l{
+    display: inline-block;
+    width: 40px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: rgb(33, 19, 156);
+    animation: move1 1.4s forwards;
+}
+.sec_l{
+    display: inline-block;
+    width: 40px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: rgba(180, 49, 125, 0.397);
+    animation: move2 1.4s forwards;
+}
+
+@keyframes move1 {
+    0% {height: 65px; margin-right: 20%;}
+    100% {height: 25px; margin-right: -20px;}
+}
+@keyframes move2 {
+    0% {height: 65px; margin-left: 20%;}
+    100% {height: 25px; margin-left: -20px;}
+}
+.tity{
+    color: white;
+    margin-bottom: 2%;
+    font-size: 34px;
+    font-weight: 600;
+    animation: exp 2s forwards;
+    margin-bottom: 5%;
+}

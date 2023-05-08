@@ -1,0 +1,25 @@
+
+.pre_div{
+    margin-bottom: 13%;
+    text-align: center;
+}
+.pre_cir{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /*background-color: rgba(39, 35, 35, 0.096);*/
+    color: white;
+    font-size: 0px;
+    animation: 1s pre forwards;
+}
+@keyframes pre {
+    0% {width: 20px; height: 20px; font-size: 4px;}
+    30% {width: 150px; height: 150px; font-size: 30px;}
+    50% {width: 150px; height: 150px; font-size: 30px;}
+    
+    70% {width: 100px; height: 100px; font-size: 22px;}
+    90% {width: 150px; height: 150px; font-size: 28px;}
+    
+    100% {width: 0px; height: 0px; font-size: 0px;}
+}

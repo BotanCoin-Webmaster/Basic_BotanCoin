@@ -1,0 +1,47 @@
+
+.checkbox{
+    margin-top: 6%;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.check_line{
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+}
+.r_tab{
+    width: 50px;
+    border-radius: 15px;
+    background-color: rgb(19, 17, 24);
+    height: 26px;
+    -moz-box-shadow:0 0 1px rgb(16, 12, 23);
+-webkit-box-shadow:0 0 1px rgb(16, 12, 23);
+box-shadow:0 0 1px rgb(16, 12, 23);
+}
+.wr_radio{
+    display: inline-block;
+    float: right;
+}
+.r_circle{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    background-color: rgb(20, 20, 23);
+    border: 2px solid rgb(10, 9, 12);
+    border-radius: 50%;
+}
+.r_f_td{
+    width: 50%;
+}
+.r_s_td{
+
+}
+@keyframes right {
+    0% {margin-left: 0px;}
+    100% {margin-left: 24px;}
+}
+@keyframes left {
+    0% {margin-left: 24px;}
+    100% {margin-left: 0px;}
+}
