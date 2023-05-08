@@ -1,0 +1,35 @@
+.modal_1{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 14%;
+}
+.modal_2{
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 14%;
+}
+.in_modal_2{
+    font-weigth: 500;
+    color: white;
+    font-size: 26px;
+    margin-top: 24px;
+    animation: vis 2s forwards;
+}
+.in_modal_3{
+    font-weigth: 400;
+    color: grey;
+    font-size: 16px;
+    margin-top: 10px;
+}

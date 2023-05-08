@@ -1,0 +1,12 @@
+  .container {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    height: 100%;
+  }
+
+  .container > div {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px;
+  }

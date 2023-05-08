@@ -1,0 +1,35 @@
+
+.width_1{
+    width: 6%;
+}
+.line_1{
+    height: 80%;
+    width: 6%;
+    position: absolute;
+    z-index: 9999999999;;
+    background: linear-gradient(#0B95DD, rgb(10, 10, 10));
+}
+.in_line_1{
+    margin-right: 4%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+}
+.width_2{
+    width: 2%;
+}
+.line_2{
+    margin-top: 3%;
+    margin-left: 4%;
+    height: 10px;
+    width: 0%;
+    position: absolute;
+    z-index: 9999999999;;
+    background: linear-gradient(to right, rgb(10, 10, 10), #0B95DD);
+    opacity: 1;
+}
+.in_line_2{
+    margin-top: 2px;
+    height: 99%;
+    opacity: 1;
+    background-color: rgb(10, 10, 10);
+}

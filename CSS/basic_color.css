@@ -1,0 +1,19 @@
+.grey{
+    color: rgb(71, 70, 74, 0.95);
+}
+.white{
+    color: white;
+    font-size: 18px;
+}
+.bigi{
+    font-size: 38px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: rgb(93, 91, 97);
+}
+.vio{
+    color: rgb(77, 46, 171);
+    display: inline-block;
+}

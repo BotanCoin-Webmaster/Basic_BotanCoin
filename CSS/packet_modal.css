@@ -1,0 +1,61 @@
+/*
+
+            <div class='wr_packet'>
+                <div class='bigi'>
+                    Пользуйтесь из любого браузера
+                </div>
+                <div class='packet'>
+                    <div class='packet_top_menu'>
+                        <div class='packet_one_tab'>
+                            open_packet.html
+                        </div>
+                    </div>
+                    <div id='active' class='packet_active_win'>
+                        
+                    </div>
+                </div>
+            </div>
+*/
+.wr_packet{
+    margin-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    height: 80%;
+}
+.packet{
+    border-radius: 10px;
+    border: 1px solid grey;
+    height: 100%;
+    background-color: black;
+    word-break: break-word;
+}
+.packet_top_menu{
+    border-bottom: 1px solid grey;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    word-break: break-word;
+}
+.packet_one_tab{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(130, 119, 117);
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+    border-radius: 10px;
+    word-break: break-word;
+}
+.packet_active_win{
+    word-break: break-word;
+    overflow-y: scroll;
+    /*font: 16px/140% 'Courier New', Courier, Arial;*/
+    color: rgb(100, 94, 173);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
